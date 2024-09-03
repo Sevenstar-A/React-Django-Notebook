@@ -1,0 +1,25 @@
+.note-container {
+    padding: 10px;
+    background-color: var(--light-dark);
+    width: 100%;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+
+
+    &.opened {
+        background-color: rgb(44, 88, 44);
+    }
+
+    .note-header {
+        display: flex;
+        justify-content: space-around;
+        
+        p {
+            padding: 3px 5px;
+            margin: 2px;
+            color: white;
+            border-right: 1px solid rgb(151, 147, 147);
+        }
+    }
+}

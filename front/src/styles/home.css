@@ -1,0 +1,45 @@
+.twins{
+    .featured-notes{
+        h3{
+           float: center;
+           display: inline-flex;
+           
+        }
+
+
+    }
+}
+
+.hero{
+    height: 80vh;
+    background:url('../assets/herobg.webp');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    color:var(--primary-color);
+    padding: 10px 15px;
+    
+    h1{
+        font-size: 48px;
+        font-weight: 800;
+    }
+}
+
+.featured-notes{
+    background-color: var(--primary-color);
+    padding: 10px 25px;
+    border-radius: 0px 30px 0 0;
+    margin-bottom: 1rem;
+    /* width:80%; */
+
+    h1{
+        color:var(--dark)
+    }
+}
+
+.card-item{
+    transition: background-color 2 ;
+}
+.card-item:hover{
+    background-color: var(--primary-color);
+}

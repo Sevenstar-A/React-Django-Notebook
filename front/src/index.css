@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    --primary-color: rgba(232, 199, 12, 0.8);
+    --bright-gold:gold;
+    --dark:rgb(20, 20, 20);
+    --light-dark:rgb(70, 67, 67);
+}
+
+.text-primary{
+    font-family: "Pixelify Sans";
+    color:var(--primary-color)
+}
+
+.text-dark{
+    color:var(--dark)
+}
+
+.bg-primary{
+    background-color:var(--primary-color)
+}
+
+.bg-dark{
+    background-color:var(--dark)
+}
+
+.bg-light-dark{
+    background-color: var(--light-dark);
+}
+
+body{
+    margin:0px;
+    padding:0px
+}
+button{
+    background-color: var(--dark);
+    color: white;
+    transition: 0.6;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid var(--bright-gold)
+
+}
+button:hover{
+    background-color: var(--primary-color);
+    border:1px solid black;
+    color:black;
+    cursor: pointer;
+}

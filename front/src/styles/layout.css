@@ -1,0 +1,90 @@
+.layout{
+    height: 100vh;
+    background-color: rgb(34, 33, 33);
+    color:white;
+    position: relative;
+    overflow-y:auto;
+}
+
+.header{
+
+    max-height: 80px;    
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.01px solid var(--bright-gold);
+    /* margin-bottom: 2rem; */
+
+    .logo-area > span{
+        font-size: 2rem;
+        color: var(--primary-color);
+    }
+
+    img{
+        border-radius: 50%;
+        background-color: transparent;
+
+        &.logo{
+            width: 50px;
+            height: 50px;
+        }
+        &.profile{
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+
+    .links{
+        display: flex;
+        list-style: none;
+        gap:70px;
+
+        .link{
+            font-size: larger;
+            color:white;
+            top:15px;
+            position: relative;
+            text-decoration: none;
+
+            &.active{
+                color: var(--primary-color);
+            }
+            &:hover {
+                cursor: pointer;
+                color: var(--bright-gold);
+            }
+        }
+
+    }   
+}
+
+/* .main{
+    padding: 20px px;
+    
+} */
+
+.footer{
+    width: 100%;
+    padding: 20px 40px;
+    position: fixed;
+    bottom: 0px;
+    height: 10px;
+    background-color: var(--dark);
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding: 10px 15px;
+    /* background-color: orchid; */
+    
+}
+
+.twins{
+    display: flex;
+    /* justify-content:space-between; */
+    padding: 30px -15px;
+    width: 100%;
+
+}
